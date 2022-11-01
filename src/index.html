@@ -5,14 +5,331 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Imaginary company homepage built using CSS Flexbox">
+    <meta name="description" content="ICON Plc Company homepage built using CSS Flexbox">
     <meta name="author" content="Aiden Kellegher">
     <title>Company Homepage with CSS Flexbox</title>
+    <link rel="stylesheet" href="css/reset-styles.css">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
-
+    <header>
+        <nav class="header__nav fixed-top flex">
+            <a class="logo" href="#">
+                <img src="img/icon-plc-logo.png" alt="ICON Plc logo">
+            </a>
+            <div class="header__nav__navbar flex">
+                <ul class="header__nav__navbar__primary flex">
+                    <li class="nav-item"><a href="#" class="nav-link dropdown-toggle"><span></span>Services</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link dropdown-toggle"><span></span>Sectors</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link dropdown-toggle"><span></span>Therapeutics</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link dropdown-toggle"><span></span>Innovation</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link dropdown-toggle"><span></span>Insights</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link dropdown-toggle"><span></span>News &amp; Events</a>
+                    </li>
+                    <li class="nav-item"><a href="#" class="nav-link dropdown-toggle"><span></span>About ICON</a></l>
+                </ul>
+                <ul class="header__nav__navbar__secondary flex">
+                    <li class="nav-item"><a href="#" class="nav-link">Careers</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Investors</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Investigators</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Patients</a></li>
+                    <li class="nav-item-separator"></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+                    <li class="nav-item-separator"></li>
+                    <li class="nav-item"><a href="#" class="nav-link">日本語 &nbsp;&nbsp;&nbsp;&nbsp;简体中文</a></li>
+                    <li class="nav-item-separator"></li>
+                    <li class="nav-item"><a href="#" class="nav-link"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="header__promo flex">
+            <div class="header__promo__overlay header__promo__overlay--blue"></div>
+            <div class="header__promo__image"></div>
+            <div class="header__promo__text-container flex">
+                <div class="container-fluid">
+                    <div class="header__promo__row flex">
+                        <div class="header__promo__text-container__inner">
+                            <h1>Diversity, Equity and Inclusion in Rare Disease Clinical Trials: Beyond Buzzwords</h1>
+                            <p>Upcoming webinar: 13 September, 2022.</p>
+                            <button class="btn">Register Today</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="header__carousel">
+                <ul class="header__carousel__nav flex">
+                    <li><a href="#">Healthcare Intelligence</a></li>
+                    <li><a href="#">Environmental, Social & Governance 2021 report</a></li>
+                    <li><a href="#">Diversity, Equity and Inclusion in Rare Disease Clinical Trials: Beyond
+                            Buzzwords</a>
+                    </li>
+                    <li><a href="#">Using longitudinal qualitative research to capture the patient voice</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div class="container-fluid">
+                <div class="section__group">
+                    <div class="row">
+                        <div class="col">
+                            <div class="card flex-column">
+                                <div class="card__image">
+                                    <img src="./img/image-1.png" alt="Image of links">
+                                </div>
+                                <div class="card__body flex-column">
+                                    <h5 class="card__body__title">The key to remarkable rare disease registries</h5>
+                                    <p class="card__body__text">Building trust and collaboration with patient advocacy
+                                        organisations
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card flex-column">
+                                <div class="card__image">
+                                    <img src="./img/image-2.png" alt="Image of links">
+                                </div>
+                                <div class="card__body flex-column">
+                                    <h5 class="card__body__title">The evolution of the Pharmacovigilance System Master
+                                        File
+                                    </h5>
+                                    <p class="card__body__text">Ensuring regulatory compliance with the PSMF.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card flex-column">
+                                <div class="card__image">
+                                    <img src="./img/image-3.png" alt="Image of links">
+                                </div>
+                                <div class="card__body flex-column">
+                                    <h5 class="card__body__title">Mainstreaming Cell & Gene Therapies</h5>
+                                    <p class="card__body__text">Development, manufacturing, regulation and market
+                                        access
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card flex-column">
+                                <div class="card__image">
+                                    <img src="./img/image-4.png" alt="Image of links">
+                                </div>
+                                <div class="card__body flex-column">
+                                    <h5 class="card__body__title">The RACE for Children Act</h5>
+                                    <p class="card__body__text">How industry can accelerate readiness through
+                                        collaboration
+                                        with patient organisations.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="section__group">
+                    <h2>Featured Services</h2>
+                    <div class="row">
+                        <div class="col">
+                            <div class="card flex-column">
+                                <div class="card__image">
+                                    <img src="./img/image-5.png" alt="Image of links">
+                                </div>
+                                <div class="card__body flex-column">
+                                    <h5 class="card__body__title">Market Access</h5>
+                                    <p class="card__body__text">Expertise in mission-critical pricing, market access,
+                                        and
+                                        reimbursement.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card flex-column">
+                                <div class="card__image">
+                                    <img src="./img/image-6.png" alt="Image of links">
+                                </div>
+                                <div class="card__body flex-column">
+                                    <h5 class="card__body__title">Site & Patient Solutions</h5>
+                                    <p class="card__body__text">Transforming recruitment through patient-centric trials
+                                        and
+                                        real-world, real-time data.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card flex-column">
+                                <div class="card__image">
+                                    <img src="./img/image-7.png" alt="Image of links">
+                                </div>
+                                <div class="card__body flex-column">
+                                    <h5 class="card__body__title">Biotech</h5>
+                                    <p class="card__body__text">ICON provides full service outsourcing and flexible
+                                        support
+                                        for biotech specific needs such as due diligence and asset valuation.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-nav">
+                        <button class="carousel-nav__prev" type="button"></button>
+                        <button class="carousel-nav__next" type="button"></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="bg-grey">
+            <div class="container-fluid">
+                <div class="section__group">
+                    <h2>ICON Insights</h2>
+                    <div class="row">
+                        <div class="col">
+                            <div class="card card-news flex-column">
+                                <div class="spotlight-system spotlight-system--flushed-right">
+                                    <div class="spotlight-system__primary-circle bg-green-dark"></div>
+                                    <div class="spotlight-system__secondary-circle bg-yellow-green left"></div>
+                                    <div class="card__image">
+                                        <img src="./img/news-1.png" alt="Image of links">
+                                    </div>
+                                </div>
+                                <div class="card__body flex-column">
+                                    <span class="date">27 October 2022</span>
+                                    <h4 class="card__body__title">Managed Service Providers</h4>
+                                    <p class="card__body__text">Managed Service Providers ensure our businesses have
+                                        competitive advantage especially in the area of language and
+                                        translation services.
+                                    </p>
+                                    <span class="read-more">Read More</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card card-news flex-column">
+                                <div class="spotlight-system spotlight-system--flushed-left">
+                                    <div class="spotlight-system__primary-circle bg-blue"></div>
+                                    <div class="spotlight-system__secondary-circle bg-grey-lighter right"></div>
+                                    <div class="card__image">
+                                        <img src="./img/news-2.png" alt="Image of links">
+                                    </div>
+                                </div>
+                                <div class="card__body flex-column">
+                                    <span class="date">19 October 2022</span>
+                                    <h4 class="card__body__title">Scaling up to CGT commercialisation in a transitioning
+                                        market
+                                    </h4>
+                                    <p class="card__body__text">The market for cell and gene therapies (CGTs) is rapidly
+                                        transitioning from ultra-niche science to approved therapies.
+                                    </p>
+                                    <span class="read-more">Read More</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card card-news flex-column">
+                                <div class="spotlight-system spotlight-system--flushed-right">
+                                    <div class="spotlight-system__primary-circle bg-purple"></div>
+                                    <div class="spotlight-system__secondary-circle bg-blue-light right"></div>
+                                    <div class="card__image">
+                                        <img src="./img/news-3.png" alt="Image of links">
+                                    </div>
+                                </div>
+                                <div class="card__body flex-column">
+                                    <span class="date">19 October 2022</span>
+                                    <h4 class="card__body__title">Best practices for Cell and Gene Therapy
+                                        manufacturing, handling and delivery</h4>
+                                    <p class="card__body__text">Cell and Gene Therapies (CGTs) offer promising ways to
+                                        treat
+                                        previously devastating and intractable diseases.
+                                    </p>
+                                    <span class="read-more">Read More</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-nav">
+                        <button class="carousel-nav__prev" type="button"></button>
+                        <button class="carousel-nav__next" type="button"></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer__main-content">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col">
+                        <img src="./img/icon-plc-logo.png" alt="ICON Plc Logo" class="footer__logo">
+                        <ul class="footer__nav-primary">
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">About ICON</a></li>
+                            <li><a href="#">Results & Reports</a></li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <h6 class="footer__nav-title">For Clients</h6>
+                        <ul class="footer__nav-secondary">
+                            <li><a href="#">Therapeutics</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Insights</a></li>
+                            <li><a href="#">Innovation</a></li>
+                            <li><a href="#">Content preferences</a></li>
+                            <li><a href="#">Office locations</a></li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <h6 class="footer__nav-title">ICON for</h6>
+                        <ul class="footer__nav-secondary">
+                            <li><a href="#">Patients</a></li>
+                            <li><a href="#">Volunteers</a></li>
+                            <li><a href="#">Investigators</a></li>
+                            <li><a href="#">Jobs & Careers</a></li>
+                            <li><a href="#">Investors</a></li>
+                            <li><a href="#">Suppliers</a></li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <h6 class="footer__nav-title">News & Events</h6>
+                        <ul class="footer__nav-secondary">
+                            <li><a href="#">Press releases</a></li>
+                            <li><a href="#">Mediakit</a></li>
+                            <li><a href="#">Events</a></li>
+                            <li><a href="#">Social media dashboard</a></li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <ul class="footer__socials flex">
+                            <li><a href="#" class="linkedin"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                            <li><a href="#" class="twitter"><i class="fa-brands fa-twitter"></i></a></li>
+                            <li><a href="#" class="facebook"><i class="fa-brands fa-facebook-f"></i></a></li>
+                            <li><a href="#" class="youtube"><i class="fa-brands fa-youtube"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__copyright">
+            <div class="container-fluid">
+                <div class="col">
+                    <ul class="footer__copyright__menu flex">
+                        <li>&copy; 2022 ICON Plc</li>
+                        <li><a href="#">Disclaimer</a></li>
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#">Site Cookies</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/898102eb10.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
