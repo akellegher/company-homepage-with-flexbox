@@ -44,31 +44,92 @@
                 </ul>
             </div>
         </nav>
-        <div class="header__promo flex">
-            <div class="header__promo__overlay header__promo__overlay--blue"></div>
-            <div class="header__promo__image"></div>
-            <div class="header__promo__text-container flex">
-                <div class="container-fluid">
-                    <div class="header__promo__row flex">
-                        <div class="header__promo__text-container__inner">
-                            <h1>Diversity, Equity and Inclusion in Rare Disease Clinical Trials: Beyond Buzzwords</h1>
-                            <p>Upcoming webinar: 13 September, 2022.</p>
-                            <button class="btn">Register Today</button>
+        <div class="header__promo">
+            <div class="slick-slider">
+                <div class="slide flex slick-active">
+                    <div class="header__promo__overlay header__promo__overlay--green-dark"></div>
+                    <div class="header__promo__video">
+                        <video src="video/heathcare-intelligence-animation-video.mp4" autoplay loop muted></video>
+                    </div>
+                    <div class="header__promo__text-container">
+                        <div class="container-fluid">
+                            <div class="header__promo__row">
+                                <div class="header__promo__text-container__inner">
+                                    <h1>Healthcare Intelligence
+                                    </h1>
+                                    <p class="lead">Clinical Research. Evolved.</p>
+                                    <a class="btn" role="button" href="#">Learn more</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide flex">
+                    <div class="header__promo__overlay header__promo__overlay--green-dark"></div>
+                    <div class="header__promo__image" style="background-image: url('img/hero-3.png');"></div>
+                    <div class="header__promo__text-container">
+                        <div class="container-fluid">
+                            <div class="header__promo__row">
+                                <div class="header__promo__text-container__inner">
+                                    <h1>Environmental, Social & Governance 2021 report
+                                    </h1>
+                                    <p class="lead">Translating intent into impact.</p>
+                                    <a class="btn" role="button" href="#">Download the report</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide flex">
+                    <div class="header__promo__overlay header__promo__overlay--blue"></div>
+                    <div class="header__promo__image" style="background-image: url('img/hero-1.png');"></div>
+                    <div class="header__promo__text-container">
+                        <div class="container-fluid">
+                            <div class="header__promo__row">
+                                <div class="header__promo__text-container__inner">
+                                    <h1>Diversity, Equity and Inclusion in Rare Disease Clinical Trials: Beyond
+                                        Buzzwords
+                                    </h1>
+                                    <p class="lead">Upcoming webinar: 13 September, 2022.</p>
+                                    <a class="btn" role="button" href="#">Register Today</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide flex">
+                    <div class="header__promo__overlay header__promo__overlay--blue"></div>
+                    <div class="header__promo__image" style="background-image: url('img/hero-2.png');"></div>
+                    <div class="header__promo__text-container">
+                        <div class="container-fluid">
+                            <div class="header__promo__row">
+                                <div class="header__promo__text-container__inner">
+                                    <h1>Using longitudinal qualitative research to capture the patient voice
+                                    </h1>
+                                    <p class="lead">Methods for collecting, analysing, and reporting patients'
+                                        perceptions of change
+                                        over time</p>
+                                    <a class="btn" role="button" href="#">Read the whitepaper</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="container-fluid">
-            <div class="header__carousel">
-                <ul class="header__carousel__nav flex">
-                    <li><a href="#">Healthcare Intelligence</a></li>
-                    <li><a href="#">Environmental, Social & Governance 2021 report</a></li>
-                    <li><a href="#">Diversity, Equity and Inclusion in Rare Disease Clinical Trials: Beyond
-                            Buzzwords</a>
-                    </li>
-                    <li><a href="#">Using longitudinal qualitative research to capture the patient voice</a></li>
-                </ul>
+            <div class="container-fluid">
+                <div class="header__carousel">
+                    <ul class="header__carousel__nav flex">
+                        <li class="slick-active"><a href="#" onclick="handleSlider(0)">Healthcare Intelligence</a></li>
+                        <li><a href="#" onclick="handleSlider(1)">Environmental, Social & Governance 2021 report</a>
+                        </li>
+                        <li><a href="#" onclick="handleSlider(2)">Diversity, Equity and Inclusion in Rare Disease
+                                Clinical Trials: Beyond
+                                Buzzwords</a>
+                        </li>
+                        <li><a href="#" onclick="handleSlider(3)">Using longitudinal qualitative research to capture the
+                                patient voice</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
     </header>
@@ -330,6 +391,7 @@
         </div>
     </footer>
     <script src="https://kit.fontawesome.com/898102eb10.js" crossorigin="anonymous"></script>
+    <script src="js/slick-slider.js"></script>
 </body>
 
 </html>
