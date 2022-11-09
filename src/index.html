@@ -27,7 +27,7 @@
                     <li class="nav-item"><a href="#" class="nav-link dropdown-toggle"><span></span>Insights</a></li>
                     <li class="nav-item"><a href="#" class="nav-link dropdown-toggle"><span></span>News &amp; Events</a>
                     </li>
-                    <li class="nav-item"><a href="#" class="nav-link dropdown-toggle"><span></span>About ICON</a></l>
+                    <li class="nav-item"><a href="#" class="nav-link dropdown-toggle"><span></span>About ICON</a></li>
                 </ul>
                 <ul class="header__nav__navbar__secondary flex">
                     <li class="nav-item"><a href="#" class="nav-link">Careers</a></li>
@@ -45,8 +45,8 @@
             </div>
         </nav>
         <div class="header__promo">
-            <div class="slick-slider">
-                <div class="slide flex slick-active">
+            <div class="header__promo__carousel">
+                <div class="promo-slide flex slide-active">
                     <div class="header__promo__overlay header__promo__overlay--green-dark"></div>
                     <div class="header__promo__video">
                         <video src="video/heathcare-intelligence-animation-video.mp4" autoplay loop muted></video>
@@ -64,7 +64,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="slide flex">
+                <div class="promo-slide flex">
                     <div class="header__promo__overlay header__promo__overlay--green-dark"></div>
                     <div class="header__promo__image" style="background-image: url('img/hero-3.png');"></div>
                     <div class="header__promo__text-container">
@@ -80,7 +80,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="slide flex">
+                <div class="promo-slide flex">
                     <div class="header__promo__overlay header__promo__overlay--blue"></div>
                     <div class="header__promo__image" style="background-image: url('img/hero-1.png');"></div>
                     <div class="header__promo__text-container">
@@ -97,7 +97,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="slide flex">
+                <div class="promo-slide flex">
                     <div class="header__promo__overlay header__promo__overlay--blue"></div>
                     <div class="header__promo__image" style="background-image: url('img/hero-2.png');"></div>
                     <div class="header__promo__text-container">
@@ -107,8 +107,7 @@
                                     <h1>Using longitudinal qualitative research to capture the patient voice
                                     </h1>
                                     <p class="lead">Methods for collecting, analysing, and reporting patients'
-                                        perceptions of change
-                                        over time</p>
+                                        perceptions of change over time</p>
                                     <a class="btn" role="button" href="#">Read the whitepaper</a>
                                 </div>
                             </div>
@@ -117,17 +116,15 @@
                 </div>
             </div>
             <div class="container-fluid">
-                <div class="header__carousel">
-                    <ul class="header__carousel__nav flex">
-                        <li class="slick-active"><a href="#" onclick="handleSlider(0)">Healthcare Intelligence</a></li>
-                        <li><a href="#" onclick="handleSlider(1)">Environmental, Social & Governance 2021 report</a>
+                <div class="header__promo__carousel-nav-container">
+                    <ul class="header__promo__carousel-nav flex">
+                        <li class="slide-active"><a>Healthcare Intelligence</a>
                         </li>
-                        <li><a href="#" onclick="handleSlider(2)">Diversity, Equity and Inclusion in Rare Disease
-                                Clinical Trials: Beyond
-                                Buzzwords</a>
+                        <li><a>Environmental, Social & Governance 2021 report</a>
                         </li>
-                        <li><a href="#" onclick="handleSlider(3)">Using longitudinal qualitative research to capture the
-                                patient voice</a></li>
+                        <li><a>Diversity, Equity and Inclusion in Rare Disease Clinical Trials: Beyond Buzzwords</a>
+                        </li>
+                        <li><a>Using longitudinal qualitative research to capture the patient voice</a></li>
                     </ul>
                 </div>
             </div>
@@ -172,8 +169,7 @@
                                 </div>
                                 <div class="card__body flex-column">
                                     <h5 class="card__body__title">Mainstreaming Cell & Gene Therapies</h5>
-                                    <p class="card__body__text">Development, manufacturing, regulation and market
-                                        access
+                                    <p class="card__body__text">Development, manufacturing, regulation and market access
                                     </p>
                                 </div>
                             </div>
@@ -186,8 +182,7 @@
                                 <div class="card__body flex-column">
                                     <h5 class="card__body__title">The RACE for Children Act</h5>
                                     <p class="card__body__text">How industry can accelerate readiness through
-                                        collaboration
-                                        with patient organisations.
+                                        collaboration with patient organisations.
                                     </p>
                                 </div>
                             </div>
@@ -196,53 +191,190 @@
                 </div>
                 <div class="section__group">
                     <h2>Featured Services</h2>
-                    <div class="row">
-                        <div class="col">
-                            <div class="card flex-column">
+                    <div class="slick-slider">
+                        <div class="slick-list">
+                            <div class="slick-card flex-column">
                                 <div class="card__image">
                                     <img src="./img/image-5.png" alt="Image of links">
                                 </div>
                                 <div class="card__body flex-column">
-                                    <h5 class="card__body__title">Market Access</h5>
+                                    <h5 class="card__body__title">1. Market Access</h5>
                                     <p class="card__body__text">Expertise in mission-critical pricing, market access,
-                                        and
-                                        reimbursement.
+                                        and reimbursement.
                                     </p>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col">
-                            <div class="card flex-column">
+                            <div class="slick-card flex-column">
                                 <div class="card__image">
                                     <img src="./img/image-6.png" alt="Image of links">
                                 </div>
                                 <div class="card__body flex-column">
-                                    <h5 class="card__body__title">Site & Patient Solutions</h5>
+                                    <h5 class="card__body__title">2. Site & Patient Solutions</h5>
                                     <p class="card__body__text">Transforming recruitment through patient-centric trials
-                                        and
-                                        real-world, real-time data.
+                                        and real-world, real-time data.
                                     </p>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col">
-                            <div class="card flex-column">
+                            <div class="slick-card flex-column">
                                 <div class="card__image">
                                     <img src="./img/image-7.png" alt="Image of links">
                                 </div>
                                 <div class="card__body flex-column">
-                                    <h5 class="card__body__title">Biotech</h5>
+                                    <h5 class="card__body__title">3. Biotech</h5>
                                     <p class="card__body__text">ICON provides full service outsourcing and flexible
-                                        support
-                                        for biotech specific needs such as due diligence and asset valuation.
+                                        support for biotech specific needs such as due diligence and asset valuation.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="slick-card flex-column">
+                                <div class="card__image">
+                                    <img src="./img/image-8.png" alt="Image of links">
+                                </div>
+                                <div class="card__body flex-column">
+                                    <h5 class="card__body__title">4. Functional Resourcing</h5>
+                                    <p class="card__body__text">From recruitment of a single clinical professional to
+                                        managing entire global functions.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="slick-card flex-column">
+                                <div class="card__image">
+                                    <img src="./img/image-9.png" alt="Image of links">
+                                </div>
+                                <div class="card__body flex-column">
+                                    <h5 class="card__body__title">5. Increasing Site and Patient Compliance</h5>
+                                    <p class="card__body__text">FIRECREST: Digital solutions to increase efficiency in
+                                        clinical trials by driving site performance.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="slick-card flex-column">
+                                <div class="card__image">
+                                    <img src="./img/image-1.png" alt="Image of links">
+                                </div>
+                                <div class="card__body flex-column">
+                                    <h5 class="card__body__title">6. Functional Resourcing</h5>
+                                    <p class="card__body__text">From recruitment of a single clinical professional
+                                        to managing entire global functions.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="slick-card flex-column">
+                                <div class="card__image">
+                                    <img src="./img/image-2.png" alt="Image of links">
+                                </div>
+                                <div class="card__body flex-column">
+                                    <h5 class="card__body__title">7. Increasing Site and Patient Compliance</h5>
+                                    <p class="card__body__text">FIRECREST: Digital solutions to increase efficiency
+                                        in clinical trials by driving site performance.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="slick-card flex-column">
+                                <div class="card__image">
+                                    <img src="./img/image-3.png" alt="Image of links">
+                                </div>
+                                <div class="card__body flex-column">
+                                    <h5 class="card__body__title">8. Increasing Site and Patient Compliance</h5>
+                                    <p class="card__body__text">FIRECREST: Digital solutions to increase efficiency
+                                        in clinical trials by driving site performance.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="slick-card flex-column">
+                                <div class="card__image">
+                                    <img src="./img/image-4.png" alt="Image of links">
+                                </div>
+                                <div class="card__body flex-column">
+                                    <h5 class="card__body__title">9. Increasing Site and Patient Compliance</h5>
+                                    <p class="card__body__text">FIRECREST: Digital solutions to increase efficiency
+                                        in clinical trials by driving site performance.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="slick-card flex-column">
+                                <div class="card__image">
+                                    <img src="./img/image-5.png" alt="Image of links">
+                                </div>
+                                <div class="card__body flex-column">
+                                    <h5 class="card__body__title">10. Increasing Site and Patient Compliance</h5>
+                                    <p class="card__body__text">FIRECREST: Digital solutions to increase efficiency
+                                        in clinical trials by driving site performance.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="slick-card flex-column">
+                                <div class="card__image">
+                                    <img src="./img/image-6.png" alt="Image of links">
+                                </div>
+                                <div class="card__body flex-column">
+                                    <h5 class="card__body__title">11. Increasing Site and Patient Compliance</h5>
+                                    <p class="card__body__text">FIRECREST: Digital solutions to increase efficiency
+                                        in clinical trials by driving site performance.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="slick-card flex-column">
+                                <div class="card__image">
+                                    <img src="./img/image-4.png" alt="Image of links">
+                                </div>
+                                <div class="card__body flex-column">
+                                    <h5 class="card__body__title">12. Increasing Site and Patient Compliance</h5>
+                                    <p class="card__body__text">FIRECREST: Digital solutions to increase efficiency
+                                        in clinical trials by driving site performance.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="slick-card flex-column">
+                                <div class="card__image">
+                                    <img src="./img/image-5.png" alt="Image of links">
+                                </div>
+                                <div class="card__body flex-column">
+                                    <h5 class="card__body__title">13. Increasing Site and Patient Compliance</h5>
+                                    <p class="card__body__text">FIRECREST: Digital solutions to increase efficiency
+                                        in clinical trials by driving site performance.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="slick-card flex-column">
+                                <div class="card__image">
+                                    <img src="./img/image-6.png" alt="Image of links">
+                                </div>
+                                <div class="card__body flex-column">
+                                    <h5 class="card__body__title">14. Increasing Site and Patient Compliance</h5>
+                                    <p class="card__body__text">FIRECREST: Digital solutions to increase efficiency
+                                        in clinical trials by driving site performance.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="slick-card flex-column">
+                                <div class="card__image">
+                                    <img src="./img/image-5.png" alt="Image of links">
+                                </div>
+                                <div class="card__body flex-column">
+                                    <h5 class="card__body__title">15. Increasing Site and Patient Compliance</h5>
+                                    <p class="card__body__text">FIRECREST: Digital solutions to increase efficiency
+                                        in clinical trials by driving site performance.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="slick-card flex-column">
+                                <div class="card__image">
+                                    <img src="./img/image-6.png" alt="Image of links">
+                                </div>
+                                <div class="card__body flex-column">
+                                    <h5 class="card__body__title">16. Increasing Site and Patient Compliance</h5>
+                                    <p class="card__body__text">FIRECREST: Digital solutions to increase efficiency
+                                        in clinical trials by driving site performance.
                                     </p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-nav">
-                        <button class="carousel-nav__prev" type="button"></button>
-                        <button class="carousel-nav__next" type="button"></button>
+                    <div class="slick-slider__nav">
+                        <button class="slick-slider__nav-prev slick-disabled" type="button"
+                            aria-disabled="true"></button>
+                        <button class="slick-slider__nav-next" type="button"></button>
                     </div>
                 </div>
             </div>
@@ -251,6 +383,192 @@
             <div class="container-fluid">
                 <div class="section__group">
                     <h2>ICON Insights</h2>
+                    <!-- This will become a slick slider with 9 cards -->
+                    <!-- <div class="slick-slider">
+                        <div class="slick-list">
+                            <div class="slick-card card-news flex-column">
+                                <div class="spotlight-system spotlight-system--flushed-right">
+                                    <div class="spotlight-system__primary-circle bg-green-dark"></div>
+                                    <div class="spotlight-system__secondary-circle bg-yellow-green left"></div>
+                                    <div class="card__image">
+                                        <img src="./img/news-1.png" alt="Image of links">
+                                    </div>
+                                </div>
+                                <div class="card__body flex-column">
+                                    <span class="date">27 October 2022</span>
+                                    <h4 class="card__body__title">Managed Service Providers</h4>
+                                    <p class="card__body__text">Managed Service Providers ensure our businesses have
+                                        competitive advantage especially in the area of language and
+                                        translation services.
+                                    </p>
+                                    <span class="read-more">Read More</span>
+                                </div>
+                            </div>
+                            <div class="slick-card card-news flex-column">
+                                <div class="spotlight-system spotlight-system--flushed-left">
+                                    <div class="spotlight-system__primary-circle bg-blue"></div>
+                                    <div class="spotlight-system__secondary-circle bg-grey-lighter right"></div>
+                                    <div class="card__image">
+                                        <img src="./img/news-2.png" alt="Image of links">
+                                    </div>
+                                </div>
+                                <div class="card__body flex-column">
+                                    <span class="date">19 October 2022</span>
+                                    <h4 class="card__body__title">Scaling up to CGT commercialisation in a transitioning
+                                        market
+                                    </h4>
+                                    <p class="card__body__text">The market for cell and gene therapies (CGTs) is rapidly
+                                        transitioning from ultra-niche science to approved therapies.
+                                    </p>
+                                    <span class="read-more">Read More</span>
+                                </div>
+                            </div>
+                            <div class="slick-card card-news flex-column">
+                                <div class="spotlight-system spotlight-system--flushed-right">
+                                    <div class="spotlight-system__primary-circle bg-purple"></div>
+                                    <div class="spotlight-system__secondary-circle bg-blue-light right"></div>
+                                    <div class="card__image">
+                                        <img src="./img/news-3.png" alt="Image of links">
+                                    </div>
+                                </div>
+                                <div class="card__body flex-column">
+                                    <span class="date">19 October 2022</span>
+                                    <h4 class="card__body__title">Best practices for Cell and Gene Therapy
+                                        manufacturing, handling and delivery</h4>
+                                    <p class="card__body__text">Cell and Gene Therapies (CGTs) offer promising ways to
+                                        treat
+                                        previously devastating and intractable diseases.
+                                    </p>
+                                    <span class="read-more">Read More</span>
+                                </div>
+                            </div>
+                            <div class="slick-card card-news flex-column">
+                                <div class="spotlight-system spotlight-system--flushed-right">
+                                    <div class="spotlight-system__primary-circle bg-blue"></div>
+                                    <div class="spotlight-system__secondary-circle bg-blue-light left"></div>
+                                    <div class="card__image">
+                                        <img src="./img/news-4.png" alt="Image of links">
+                                    </div>
+                                </div>
+                                <div class="card__body flex-column">
+                                    <span class="date">06 October 2022</span>
+                                    <h4 class="card__body__title">Navigating the complexity of CGT clinical trial design
+                                    </h4>
+                                    <p class="card__body__text">This blog will explore some of the challenges of CGT
+                                        clinical
+                                        trial design, such as patient recruitment and data collection,
+                                        and strategies for how to approach them.
+                                    </p>
+                                    <span class="read-more">Read More</span>
+                                </div>
+                            </div>
+                            <div class="slick-card card-news flex-column">
+                                <div class="spotlight-system spotlight-system--flushed-left">
+                                    <div class="spotlight-system__primary-circle bg-green"></div>
+                                    <div class="spotlight-system__secondary-circle bg-grey-lighter right"></div>
+                                    <div class="card__image">
+                                        <img src="./img/news-5.png" alt="Image of links">
+                                    </div>
+                                </div>
+                                <div class="card__body flex-column">
+                                    <span class="date">28 September 2022</span>
+                                    <h4 class="card__body__title">Hassle-free medical and clinical trial translation
+                                        services in the post-pandemic era</h4>
+                                    <p class="card__body__text">The Covid-19 pandemic has revealed the importance of
+                                        medical
+                                        translation as a mostly overlooked albeit essential service in
+                                        the world of life sciences and healthcare.
+                                    </p>
+                                    <span class="read-more">Read More</span>
+                                </div>
+                            </div>
+                            <div class="slick-card card-news flex-column">
+                                <div class="spotlight-system spotlight-system--flushed-right">
+                                    <div class="spotlight-system__primary-circle bg-grey-light"></div>
+                                    <div class="spotlight-system__secondary-circle bg-green-bright right"></div>
+                                    <div class="card__image">
+                                        <img src="./img/news-6.png" alt="Image of links">
+                                    </div>
+                                </div>
+                                <div class="card__body flex-column">
+                                    <span class="date">19 September 2022</span>
+                                    <h4 class="card__body__title">Clinical development challenges faced by advanced
+                                        therapies for rare disease</h4>
+                                    <p class="card__body__text">Advanced therapies are a class of products based on
+                                        genes,
+                                        tissues or cells used to treat or deliver treatment to
+                                        patients.
+                                    </p>
+                                    <span class="read-more">Read More</span>
+                                </div>
+                            </div>
+                            <div class="slick-card card-news flex-column">
+                                <div class="spotlight-system spotlight-system--flushed-right">
+                                    <div class="spotlight-system__primary-circle bg-purple"></div>
+                                    <div class="spotlight-system__secondary-circle bg-grey-lighter left"></div>
+                                    <div class="card__image">
+                                        <img src="./img/news-7.png" alt="Image of links">
+                                    </div>
+                                </div>
+                                <div class="card__body flex-column">
+                                    <span class="date">19 September 2022</span>
+                                    <h4 class="card__body__title">Advanced therapies for rare disease - a regulatory
+                                        roadmap</h4>
+                                    <p class="card__body__text">Navigating advanced therapy development for rare
+                                        diseases is
+                                        challenging from many perspectives and requires a customised
+                                        development strategy.
+                                    </p>
+                                    <span class="read-more">Read More</span>
+                                </div>
+                            </div>
+                            <div class="slick-card card-news flex-column">
+                                <div class="spotlight-system spotlight-system--flushed-left">
+                                    <div class="spotlight-system__primary-circle bg-yellow-green"></div>
+                                    <div class="spotlight-system__secondary-circle bg-green-dark right"></div>
+                                    <div class="card__image">
+                                        <img src="./img/news-8.png" alt="Image of links">
+                                    </div>
+                                </div>
+                                <div class="card__body flex-column">
+                                    <span class="date">12 September 2022</span>
+                                    <h4 class="card__body__title">Diarmaid Cunningham, Chief Administrative Officer and
+                                        General Counsel, reflects on the publication of ICON's 2021 ESG report</h4>
+                                    <p class="card__body__text">ICON has published our 2021 ESG report, which shows the
+                                        strong
+                                        progress we have made against our ESG priorities and
+                                        commitments.
+                                    </p>
+                                    <span class="read-more">Read More</span>
+                                </div>
+                            </div>
+                            <div class="slick-card card-news flex-column">
+                                <div class="spotlight-system spotlight-system--flushed-right">
+                                    <div class="spotlight-system__primary-circle bg-blue"></div>
+                                    <div class="spotlight-system__secondary-circle bg-green-bright right"></div>
+                                    <div class="card__image">
+                                        <img src="./img/news-9.png" alt="Image of links">
+                                    </div>
+                                </div>
+                                <div class="card__body flex-column">
+                                    <span class="date">20 July 2022</span>
+                                    <h4 class="card__body__title">Clinical trials through a child’s eyes: Writing lay
+                                        summaries for paediatric trial results</h4>
+                                    <p class="card__body__text">Patient centricity and transparency are increasingly
+                                        important
+                                        topics in the area of clinical trials. How can sponsors create
+                                        a PLS that is better understandable to paediatric audiences?
+                                    </p>
+                                    <span class="read-more">Read More</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slick-slider__nav">
+                        <button class="slick-slider__nav-prev slick-disabled" type="button"
+                            aria-disabled="true"></button>
+                        <button class="slick-slider__nav-next" type="button"></button>
+                    </div> -->
                     <div class="row">
                         <div class="col">
                             <div class="card card-news flex-column">
@@ -314,10 +632,6 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="carousel-nav">
-                        <button class="carousel-nav__prev" type="button"></button>
-                        <button class="carousel-nav__next" type="button"></button>
                     </div>
                 </div>
             </div>
@@ -391,6 +705,7 @@
         </div>
     </footer>
     <script src="https://kit.fontawesome.com/898102eb10.js" crossorigin="anonymous"></script>
+    <script src="js/promo-carousel.js"></script>
     <script src="js/slick-slider.js"></script>
 </body>
 
